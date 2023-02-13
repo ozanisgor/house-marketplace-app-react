@@ -19,7 +19,6 @@ function Category() {
   const [loading, setLoading] = useState(true)
 
   const params = useParams()
-  console.log(listings)
 
   useEffect(() => {
     const fetchListings = async () => {
@@ -54,7 +53,7 @@ function Category() {
       }
     }
     fetchListings()
-  }, [])
+  }, [params.categoryName])
 
   return (
     <div className="category">
