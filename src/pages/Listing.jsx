@@ -43,7 +43,6 @@ function Listing() {
 
   return (
     <main>
-      {/* Slider Here */}
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         slidesPerView={1}
