@@ -16,7 +16,7 @@ Do the following steps for installation
 <br>
 <br>
 
-In the root folder create .env file 
+In the root folder create `.env` file 
 ```bash
 touch .env
 ```
